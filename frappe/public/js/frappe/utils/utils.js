@@ -249,6 +249,7 @@ Object.assign(frappe.utils, {
 		return txt.toLowerCase().substr(0, 7) == 'http://'
 			|| txt.toLowerCase().substr(0, 8) == 'https://';
 	},
+
 	to_title_case: function (string, with_space = false) {
 		let titlecased_string = string.toLowerCase().replace(/(?:^|[\s-/])\w/g, function (match) {
 			return match.toUpperCase();
@@ -258,6 +259,7 @@ Object.assign(frappe.utils, {
 
 		return titlecased_string.replace(/-|_/g, replace_with);
 	},
+
 	toggle_blockquote: function (txt) {
 		if (!txt) return txt;
 
@@ -266,6 +268,7 @@ Object.assign(frappe.utils, {
 			.before('<p><a class="text-muted btn btn-default toggle-blockquote" style="padding: 2px 7px 0px; line-height: 1;"> \
 					• • • \
 				</a></p>');
+
 		return content.html();
 	},
 	scroll_to: function (element, animate = true, additional_offset, element_to_be_scrolled, callback) {

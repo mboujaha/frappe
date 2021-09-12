@@ -63,7 +63,6 @@ export default class ShortcutWidget extends Widget {
 			this.head[0].style.justifyContent = 'center';
 			this.title_field[0].style.flexDirection = 'column';
 			this.title_field[0].style.fontSize = 'var(--text-base)';
-			console.log(this);
 		}
 
 		let filters = this.get_doctype_filter();

@@ -1,7 +1,7 @@
 {
  "category": "",
  "charts": [],
- "content": "[{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quick inspection\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"D\u00e9clarer  une accident\",\"col\":4}}]",
+ "content": "[{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"D\u00e9clarer  une accident\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quick inspection\",\"col\":4}}]",
  "creation": "2020-03-02 15:15:03.839594",
  "developer_mode_only": 0,
  "disable_user_customization": 0,
@@ -106,7 +106,7 @@
    "type": "Link"
   }
  ],
- "modified": "2021-09-09 15:19:37.874746",
+ "modified": "2021-09-10 12:43:25.719936",
  "modified_by": "Administrator",
  "module": "Custom",
  "name": "Customization",
@@ -114,31 +114,31 @@
  "owner": "Administrator",
  "parent_page": "",
  "pin_to_bottom": 0,
- "pin_to_top": 0,
+ "pin_to_top": 1,
  "public": 1,
  "restrict_to_domain": "",
  "roles": [],
  "sequence_id": 8,
  "shortcuts": [
   {
-   "bg_color": "#F1F1F1",
+   "bg_color": "#f5f6ff",
    "color": "Grey",
-   "doc_view": "List",
-   "icon": "fa fa-search",
-   "icon_color": "#1E3A8D",
+   "doc_view": "New",
+   "icon": "fa fa-eye",
+   "icon_color": "#1E3989",
    "icon_height": "60px",
    "icon_size": "3rem",
    "icon_width": "5 rem",
    "label": "Quick inspection",
-   "link_to": "User",
+   "link_to": "Inspection",
    "type": "DocType"
   },
   {
-   "bg_color": "#F1F1F1",
+   "bg_color": "#f5f6ff",
    "color": "Grey",
    "doc_view": "List",
    "icon": "fa fa-exclamation",
-   "icon_color": "#1E3A8D",
+   "icon_color": "#1E3989",
    "icon_height": "60px",
    "icon_size": "3rem",
    "icon_width": "5 rem",
@@ -147,5 +147,5 @@
    "type": "DocType"
   }
  ],
- "title": "Customization"
+ "title": "Safety"
 }
