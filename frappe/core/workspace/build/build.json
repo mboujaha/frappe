@@ -2,7 +2,7 @@
  "cards_label": "Elements",
  "category": "",
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Your Shortcuts\",\"level\":4,\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"DocType\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Workspace\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Report\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"Elements\",\"level\":4,\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Modules\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Models\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Views\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Scripting\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Packages\",\"col\":4}}]",
+ "content": "[{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"INSPECTION\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"INCIDENT\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"ACCIDENT\",\"col\":4}}]",
  "creation": "2021-01-02 10:51:16.579957",
  "developer_mode_only": 0,
  "disable_user_customization": 0,
@@ -18,16 +18,6 @@
  "is_standard": 0,
  "label": "Build",
  "links": [
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Modules",
-   "link_count": 0,
-   "link_type": "DocType",
-   "onboard": 0,
-   "only_for": "",
-   "type": "Card Break"
-  },
   {
    "hidden": 0,
    "is_query_report": 0,
@@ -75,16 +65,6 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Models",
-   "link_count": 0,
-   "link_type": "DocType",
-   "onboard": 0,
-   "only_for": "",
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "DocType",
    "link_count": 0,
    "link_to": "DocType",
@@ -103,16 +83,6 @@
    "onboard": 0,
    "only_for": "",
    "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Views",
-   "link_count": 0,
-   "link_type": "DocType",
-   "onboard": 0,
-   "only_for": "",
-   "type": "Card Break"
   },
   {
    "hidden": 0,
@@ -161,16 +131,6 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Scripting",
-   "link_count": 0,
-   "link_type": "DocType",
-   "onboard": 0,
-   "only_for": "",
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "Server Script",
    "link_count": 0,
    "link_to": "Server Script",
@@ -200,37 +160,9 @@
    "onboard": 0,
    "only_for": "",
    "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Packages",
-   "link_count": 2,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Package",
-   "link_count": 0,
-   "link_to": "Package",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Package Import",
-   "link_count": 0,
-   "link_to": "Package Import",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
   }
  ],
- "modified": "2021-09-10 12:43:43.155174",
+ "modified": "2021-09-13 20:57:09.448807",
  "modified_by": "Administrator",
  "module": "Core",
  "name": "Build",
@@ -245,21 +177,42 @@
  "sequence_id": 5,
  "shortcuts": [
   {
-   "doc_view": "",
-   "label": "DocType",
-   "link_to": "DocType",
+   "bg_color": "#F8CBAD",
+   "color": "Grey",
+   "doc_view": "List",
+   "icon_color": "#2C3758",
+   "icon_height": "100px",
+   "icon_img": "/files/Group-7.png",
+   "icon_size": "100px",
+   "icon_width": "70px",
+   "label": "INCIDENT",
+   "link_to": "Inspection",
    "type": "DocType"
   },
   {
-   "doc_view": "",
-   "label": "Workspace",
-   "link_to": "Workspace",
+   "bg_color": "#E2F0D9",
+   "color": "Grey",
+   "doc_view": "New",
+   "icon_color": "#2C3758",
+   "icon_height": "90px",
+   "icon_img": "/files/Group 6.png",
+   "icon_size": "100px",
+   "icon_width": "100px",
+   "label": "INSPECTION",
+   "link_to": "Inspection",
    "type": "DocType"
   },
   {
-   "doc_view": "",
-   "label": "Report",
-   "link_to": "Report",
+   "bg_color": "#FDE498",
+   "color": "Grey",
+   "doc_view": "List",
+   "icon_color": "#2C3758",
+   "icon_height": "90px",
+   "icon_img": "/files/Layer_2.png",
+   "icon_size": "100px",
+   "icon_width": "100px",
+   "label": "ACCIDENT",
+   "link_to": "Inspection",
    "type": "DocType"
   }
  ],

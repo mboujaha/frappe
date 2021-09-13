@@ -396,6 +396,21 @@ class ShortcutDialog extends WidgetDialog {
 				fieldtype: "Text",
 				fieldname: "title_color",
 				label: __("Title Color"),
+			},
+			{
+				fieldtype: "Attach",
+				fieldname: "icon_img",
+				label: __("Icon image"),
+			},
+			{
+				fieldtype: "Text",
+				fieldname: "icon_width",
+				label: __("Icon width"),
+			},
+			{
+				fieldtype: "Text",
+				fieldname: "icon_height",
+				label: __("Icon height"),
 			}
 		];
 	}

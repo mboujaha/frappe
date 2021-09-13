@@ -1117,7 +1117,7 @@ Object.assign(frappe.utils, {
 		}
 	},
 
-	icon(icon_name, size = "sm", icon_class = "", icon_color= "") {
+	icon(icon_name, size = "sm", icon_class = "", icon_color = "", icon_img, icon_width, icon_height) {
 		let size_class = "";
 		let icon_style = "";
 
@@ -1127,8 +1127,13 @@ Object.assign(frappe.utils, {
 			size_class = `icon-${size}`;
 		}
 
-		if (size && size.includes('rem')) {
+		if (!icon_img && size && size.includes('rem')) {
 			return `<i class="${icon_name}" style="font-size: ${size}; font-style: normal; color: ${icon_color}; margin: 1rem"></i>`;
+		}
+
+		console.log(icon_img);
+		if (icon_img) {
+			return `<img  src="${icon_img}" alt="safety" style="margin: .4rem; width: ${icon_width}; height: ${icon_height}" />`;
 		}
 
 		return `<svg class="icon  ${icon_class}" style="${icon_style}">

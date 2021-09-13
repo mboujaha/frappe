@@ -22,7 +22,10 @@ export default class ShortcutWidget extends Widget {
 			type: this.type,
 			bg_color: this.bg_color,
 			icon_size: this.icon_size,
-			icon_color: this.icon_color
+			icon_color: this.icon_color,
+			icon_img: this.icon_img,
+			icon_width: this.icon_width,
+			icon_height: this.icon_height
 		};
 	}
 

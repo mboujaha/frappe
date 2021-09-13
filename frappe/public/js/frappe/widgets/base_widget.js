@@ -130,14 +130,16 @@ export default class Widget {
 	set_title(max_chars) {
 		let base = this.title || this.label || this.name;
 		let title = max_chars ? frappe.ellipsis(base, max_chars) : base;
-		let color =  this.color ? this.color.toLowerCase() : 'white';
+		let color = this.color ? this.color.toLowerCase() : 'white';
 		let icon_size;
-		let icon_color = this ? this.icon_color  : "";
+		let icon_color = this ? this.icon_color : "";
+		let icon_img = this ? this.icon_img : "";
 		if (this && this.icon_size) {
 			icon_size = this.icon_size;
 		}
-		if (this.icon) {
-			let icon = frappe.utils.icon(this.icon, icon_size, null, icon_color);
+
+		if (this.icon || icon_img) {
+			let icon = frappe.utils.icon(this.icon, icon_size, null, icon_color, icon_img, this.icon_width, this.icon_height);
 			this.title_field[0].innerHTML = `${icon} <span class="ellipsis" style="color: ${icon_color}; font-weight: bold;" title="${title}">${title}</span>`;
 		} else {
 			this.title_field[0].innerHTML = `<span class="ellipsis" title="${title}">${title}</span>`;
@@ -224,16 +226,12 @@ export default class Widget {
 
 	setup_events() {
 		//
-		console.log('set setup_events', this.head);
 
-		this.head.css('justify-content', 'center !important');
 	}
 
 	set_actions() {
 		//
-		console.log('set action', this.head);
 
-		this.head.css('justify-content', 'center !important');
 
 	}
 
