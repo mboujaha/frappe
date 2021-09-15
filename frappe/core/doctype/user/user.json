@@ -80,7 +80,8 @@
   "api_key",
   "generate_keys",
   "column_break_65",
-  "api_secret"
+  "api_secret",
+  "comp_user"
  ],
  "fields": [
   {
@@ -602,6 +603,12 @@
    "fieldtype": "Link",
    "label": "Module Profile",
    "options": "Module Profile"
+  },
+  {
+   "fieldname": "comp_user",
+   "fieldtype": "Link",
+   "label": "company",
+   "options": "Company"
   }
  ],
  "icon": "fa fa-user",
@@ -670,7 +677,7 @@
   }
  ],
  "max_attachments": 5,
- "modified": "2021-02-02 16:11:06.037543",
+ "modified": "2021-09-15 16:34:11.768137",
  "modified_by": "Administrator",
  "module": "Core",
  "name": "User",
