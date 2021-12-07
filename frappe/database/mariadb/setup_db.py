@@ -148,6 +148,7 @@ def get_root_connection(root_login, root_password):
 	if not frappe.local.flags.root_connection:
 		if not root_login:
 			root_login = 'root'
+			# gi
 
 		if not root_password:
 			root_password = frappe.conf.get("root_password") or None
