@@ -8,3 +8,30 @@
 @import "~frappe-charts/dist/frappe-charts.min";
 @import "~plyr/dist/plyr";
 @import "./desk/index";
+
+.desk-sidebar {
+  //   display: none !important;
+}
+
+.col-lg-2.layout-side-section {
+  //   display: none !important;
+}
+
+.page-container[data-page-route="Workspaces"] {
+  background: url("/assets/frappe/images/cosumar/bluecirclesbg.png") no-repeat;
+  background-size: auto;
+  background-position: inherit;
+}
+
+.widget.widget-shadow.shortcut-widget-box {
+  transition: all 0.2s ease-in-out;
+}
+.widget.widget-shadow.shortcut-widget-box:hover {
+  transform: scale(1.05);
+}
+.widget.widget-shadow.shortcut-widget-box:focus {
+  transform: scale(1.04);
+}
+.page-title {
+    // display: none;
+}

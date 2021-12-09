@@ -140,7 +140,7 @@ export default class Widget {
 
 		if (this.icon || icon_img) {
 			let icon = frappe.utils.icon(this.icon, icon_size, null, icon_color, icon_img, this.icon_width, this.icon_height);
-			this.title_field[0].innerHTML = `${icon} <span class="ellipsis" style="color: ${icon_color}; font-weight: bold;" title="${title}">${title}</span>`;
+			this.title_field[0].innerHTML = `${icon} <span class="ellipsis" style="color: ${icon_color}; font-weight: 900;" title="${title}">${title}</span>`;
 		} else {
 			this.title_field[0].innerHTML = `<span class="ellipsis" title="${title}">${title}</span>`;
 			if (max_chars) {

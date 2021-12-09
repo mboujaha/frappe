@@ -152,7 +152,7 @@
    "type": "Link"
   }
  ],
- "modified": "2021-08-05 12:16:03.010204",
+ "modified": "2021-12-08 15:19:50.688270",
  "modified_by": "Administrator",
  "module": "Core",
  "name": "Users",
@@ -167,27 +167,37 @@
  "sequence_id": 27,
  "shortcuts": [
   {
+   "icon_height": "60",
+   "icon_width": "100",
    "label": "User",
    "link_to": "User",
    "type": "DocType"
   },
   {
+   "icon_height": "60",
+   "icon_width": "100",
    "label": "Role",
    "link_to": "Role",
    "type": "DocType"
   },
   {
+   "icon_height": "60",
+   "icon_width": "100",
    "label": "Permission Manager",
    "link_to": "permission-manager",
    "type": "Page"
   },
   {
+   "icon_height": "60",
+   "icon_width": "100",
    "label": "User Profile",
    "link_to": "user-profile",
    "type": "Page"
   },
   {
    "doc_view": "",
+   "icon_height": "60",
+   "icon_width": "100",
    "label": "User Type",
    "link_to": "User Type",
    "type": "DocType"

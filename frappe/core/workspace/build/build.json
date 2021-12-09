@@ -1,8 +1,9 @@
 {
+ "_liked_by": "[]",
  "cards_label": "Elements",
  "category": "",
  "charts": [],
- "content": "[{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"INSPECTION\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"INCIDENT\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"ACCIDENT\",\"col\":4}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"GESTION DES INCIDENTS&nbsp;\",\"level\":1,\"col\":12}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"INSPECTION\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"INCIDENT\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"ACCIDENT\",\"col\":4}},{\"type\":\"onboarding\",\"data\":{\"onboarding_name\":\"Website\",\"col\":12}}]",
  "creation": "2021-01-02 10:51:16.579957",
  "developer_mode_only": 0,
  "disable_user_customization": 0,
@@ -162,7 +163,7 @@
    "type": "Link"
   }
  ],
- "modified": "2021-09-13 20:57:09.448807",
+ "modified": "2021-12-09 11:17:28.380405",
  "modified_by": "Administrator",
  "module": "Core",
  "name": "Build",
@@ -177,25 +178,12 @@
  "sequence_id": 5,
  "shortcuts": [
   {
-   "bg_color": "#F8CBAD",
-   "color": "Grey",
-   "doc_view": "List",
-   "icon_color": "#2C3758",
-   "icon_height": "100px",
-   "icon_img": "/files/Group-7.png",
-   "icon_size": "100px",
-   "icon_width": "70px",
-   "label": "INCIDENT",
-   "link_to": "Inspection",
-   "type": "DocType"
-  },
-  {
-   "bg_color": "#E2F0D9",
+   "bg_color": "linear-gradient(to right top, #2782e2, #188ce7, #0695ec, #009ff0, #00a8f3)",
    "color": "Grey",
    "doc_view": "New",
-   "icon_color": "#2C3758",
+   "icon_color": "#f2f2f2",
    "icon_height": "90px",
-   "icon_img": "/files/Group 6.png",
+   "icon_img": "/files/Path 88@2x.png",
    "icon_size": "100px",
    "icon_width": "100px",
    "label": "INSPECTION",
@@ -203,14 +191,27 @@
    "type": "DocType"
   },
   {
-   "bg_color": "#FDE498",
+   "bg_color": " linear-gradient(to right top, #00c7e0, #00c0e7, #00b9ed, #00b1f1, #00a8f3)",
    "color": "Grey",
    "doc_view": "List",
-   "icon_color": "#2C3758",
-   "icon_height": "90px",
-   "icon_img": "/files/Layer_2.png",
+   "icon_color": "#ffffff",
+   "icon_height": "100px",
+   "icon_img": "/files/Component 7 \u2013 2@2x.png",
    "icon_size": "100px",
-   "icon_width": "100px",
+   "icon_width": "93px",
+   "label": "INCIDENT",
+   "link_to": "Inspection",
+   "type": "DocType"
+  },
+  {
+   "bg_color": "linear-gradient(to right top, #2782e2, #4a86d9, #5f89cf, #6f8dc6, #7d91bc)",
+   "color": "Grey",
+   "doc_view": "List",
+   "icon_color": "#ffffff",
+   "icon_height": "90px",
+   "icon_img": "/files/dashboard@2x.png",
+   "icon_size": "120px",
+   "icon_width": "120px",
    "label": "ACCIDENT",
    "link_to": "Inspection",
    "type": "DocType"

@@ -148,9 +148,16 @@ login.call = function (args, callback) {
 }
 
 login.set_status = function (message, color) {
-	$('section:visible .btn-primary').text(message)
-	if (color == "red") {
-		$('section:visible .page-card-body').addClass("invalid");
+	$('.gi-auth-submit-btn').text(message);
+	if (!message.startsWith('Verifying')) {
+		if (color == "red") {
+			$('.gi-auth-form-buttons').addClass('shake-bottom');
+			$('.gi-auth-submit-btn').css("background-image","linear-gradient(to right top, #d95175, #df4d67, #e34a58, #e54a47, #e44c35)");
+			setTimeout(() => {
+				$(".gi-auth-form-buttons").removeClass('shake-bottom');
+			}, 500)		} else {
+			$('.gi-auth-submit-btn').css("background-image","linear-gradient(to right top, #009d9c, #00ada5, #00beac, #00ceb2, #00dfb5)");
+		}
 	}
 }
 

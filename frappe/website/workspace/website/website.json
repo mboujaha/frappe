@@ -239,7 +239,7 @@
    "type": "Link"
   }
  ],
- "modified": "2021-08-05 12:16:03.154032",
+ "modified": "2021-12-08 15:19:50.552828",
  "modified_by": "Administrator",
  "module": "Website",
  "name": "Website",
@@ -256,6 +256,8 @@
   {
    "color": "Green",
    "format": "{} Published",
+   "icon_height": "60",
+   "icon_width": "100",
    "label": "Blog Post",
    "link_to": "Blog Post",
    "stats_filter": "{\"published\":\"1\"}",
@@ -264,6 +266,8 @@
   {
    "color": "Green",
    "format": "{} Active",
+   "icon_height": "60",
+   "icon_width": "100",
    "label": "Blogger",
    "link_to": "Blogger",
    "stats_filter": "{\"disabled\": 0}",
@@ -272,17 +276,23 @@
   {
    "color": "Green",
    "format": "{} Published",
+   "icon_height": "60",
+   "icon_width": "100",
    "label": "Web Page",
    "link_to": "Web Page",
    "stats_filter": "{ \"published\": 1 }",
    "type": "DocType"
   },
   {
+   "icon_height": "60",
+   "icon_width": "100",
    "label": "Web Form",
    "link_to": "Web Form",
    "type": "DocType"
   },
   {
+   "icon_height": "60",
+   "icon_width": "100",
    "label": "Website Settings",
    "link_to": "Website Settings",
    "type": "DocType"

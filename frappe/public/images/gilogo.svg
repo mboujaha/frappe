@@ -1,0 +1,12 @@
+<svg id="Component_6_2" data-name="Component 6 – 2" xmlns="http://www.w3.org/2000/svg" width="208.719" height="57" viewBox="0 0 208.719 57">
+    <text id="GESTION_DES_INCIDENTS" data-name="GESTION
+  DES INCIDENTS" transform="translate(68.719 25.5)" fill="#717172" font-size="18" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">GESTION</tspan><tspan x="0" y="18">DES INCIDENTS</tspan></text>
+    <g id="Group_12" data-name="Group 12" transform="translate(-198.841 -126.918)">
+      <rect id="Rectangle_37" data-name="Rectangle 37" width="56.719" height="56.719" rx="18.004" transform="translate(198.841 126.959)" fill="#4a71e3"/>
+      <path id="Path_101" data-name="Path 101" d="M214.555,175.716a.561.561,0,0,1-.542-.71l2.3-8.419a17.963,17.963,0,1,1,6.916,6.876l-8.53,2.246A.533.533,0,0,1,214.555,175.716Zm8.751-3.427a.563.563,0,0,1,.28.073,16.84,16.84,0,1,0-6.174-6.147.565.565,0,0,1,.056.43l-2.1,7.719,7.811-2.058A.621.621,0,0,1,223.306,172.289Z" transform="translate(-3.772 -3.197)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_38" data-name="Rectangle 38" width="3.587" height="11.04" rx="1.793" transform="translate(226.393 146.353)" fill="#fff"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="1.793" cy="1.793" r="1.793" transform="translate(226.393 160.282)" fill="#fff"/>
+    </g>
+    <line id="Line_7" data-name="Line 7" y2="57" transform="translate(63.219)" fill="none" stroke="#717172" stroke-width="1"/>
+  </svg>
+  

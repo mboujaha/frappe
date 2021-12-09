@@ -8,12 +8,12 @@ frappe.ui.form.ControlComment = class ControlComment extends frappe.ui.form.Cont
 		this.comment_wrapper = !this.no_wrapper ? $(`
 			<div class="comment-input-wrapper">
 				<div class="comment-input-header">
-					<span>${__("Add a comment")}</span>
+					<span>${__("Ajouter un commentaire")}</span>
 				</div>
 				<div class="comment-input-container">
 					<div class="frappe-control"></div>
 					<div class="text-muted small">
-						${__("Ctrl+Enter to add comment")}
+						${__("Ctrl+Enter pour ajouter un commentaire")}
 					</div>
 				</div>
 				<button class="btn btn-default btn-comment btn-xs">

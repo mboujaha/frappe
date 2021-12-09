@@ -83,6 +83,11 @@ frappe.views.Workspace = class Workspace {
 			</div>
 		`).appendTo(this.wrapper.find(".layout-side-section"));
 		this.sidebar = list_sidebar.find(".desk-sidebar");
+		this.sidebar[0].parentElement.parentElement.style.display = 'none !important';
+		const ss = this.wrapper.find(".layout-side-section");
+		const pagetitle = this.wrapper.find(".page-title");
+		ss[0].style.display = 'none';
+		pagetitle[0].style.display = 'none';
 		this.body = this.wrapper.find(".layout-main-section");
 	}
 
@@ -375,10 +380,11 @@ frappe.views.Workspace = class Workspace {
 				this.make_blocks_sortable();
 			});
 		});
-
-		this.page.add_inner_button(__("Create Workspace"), () => {
-			this.initialize_new_page();
-		});
+		if (frappe.user.has_role("System Manager")) {
+			this.page.add_inner_button(__("Create Workspace"), () => {
+				this.initialize_new_page();
+			});
+		}
 	}
 
 	initialize_editorjs_undo() {

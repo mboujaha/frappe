@@ -70,6 +70,7 @@
 		{%- endif %}
 	{%- endblock -%}
 
+	{% if show_navbar %}
 	{%- block navbar -%}
 		{{ web_block(
 			navbar_template or 'Standard Navbar',
@@ -79,6 +80,7 @@
 			add_bottom_padding=0,
 		) }}
 	{%- endblock -%}
+	{% endif %}
 
 	{% block content %}
 		{{ content }}

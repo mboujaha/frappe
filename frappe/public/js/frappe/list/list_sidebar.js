@@ -22,6 +22,9 @@ frappe.views.ListSidebar = class ListSidebar {
 			.html(sidebar_content)
 			.appendTo(this.page.sidebar.empty());
 
+		console.log(this.page.sidebar);	
+		this.page.sidebar.css('display', 'none');
+
 		this.setup_list_filter();
 		this.setup_list_group_by();
 

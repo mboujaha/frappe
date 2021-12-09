@@ -49,12 +49,6 @@ frappe.ui.Notifications = class Notifications {
 				id: "notifications",
 				view: NotificationsView,
 				el: this.panel_notifications,
-			},
-			{
-				label: __("Today's Events"),
-				id: "todays_events",
-				view: EventsView,
-				el: this.panel_events,
 			}
 		];
 

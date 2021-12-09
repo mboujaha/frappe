@@ -215,7 +215,7 @@
    "type": "Link"
   }
  ],
- "modified": "2021-08-05 12:16:02.839180",
+ "modified": "2021-12-08 15:19:50.823085",
  "modified_by": "Administrator",
  "module": "Automation",
  "name": "Tools",
@@ -230,26 +230,36 @@
  "sequence_id": 26,
  "shortcuts": [
   {
+   "icon_height": "60",
+   "icon_width": "100",
    "label": "ToDo",
    "link_to": "ToDo",
    "type": "DocType"
   },
   {
+   "icon_height": "60",
+   "icon_width": "100",
    "label": "Note",
    "link_to": "Note",
    "type": "DocType"
   },
   {
+   "icon_height": "60",
+   "icon_width": "100",
    "label": "File",
    "link_to": "File",
    "type": "DocType"
   },
   {
+   "icon_height": "60",
+   "icon_width": "100",
    "label": "Assignment Rule",
    "link_to": "Assignment Rule",
    "type": "DocType"
   },
   {
+   "icon_height": "60",
+   "icon_width": "100",
    "label": "Auto Repeat",
    "link_to": "Auto Repeat",
    "type": "DocType"

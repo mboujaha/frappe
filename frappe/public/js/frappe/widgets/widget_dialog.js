@@ -377,7 +377,7 @@ class ShortcutDialog extends WidgetDialog {
 				description: __("For Example: {} Open"),
 			},
 			{
-				fieldtype: "Color",
+				fieldtype: "Text",
 				fieldname: "bg_color",
 				label: __("Background Color"),
 			},

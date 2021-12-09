@@ -62,7 +62,7 @@ export default class ShortcutWidget extends Widget {
 		// console.log(this.widget[0].parentElement.parentElement.parentElement);
 
 		if (this.bg_color) {
-			this.widget.css('background', this.bg_color);
+			this.widget.css('backgroundImage', this.bg_color);
 			this.head[0].style.justifyContent = 'center';
 			this.title_field[0].style.flexDirection = 'column';
 			this.title_field[0].style.fontSize = 'var(--text-base)';
