@@ -1,4 +1,4 @@
-<svg id="Component_9_1" data-name="Component 9 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="208.719" height="57" viewBox="0 0 208.719 57">
+<svg id="Component_12_1" data-name="Component 12 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220.719" height="56.719" viewBox="0 0 220.719 56.719">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#6084ed"/>
@@ -9,16 +9,16 @@
     </linearGradient>
   </defs>
   <text id="GESTION_DES_INCIDENTS" data-name="GESTION
-DES INCIDENTS" transform="translate(68.719 25.5)" fill="#717172" font-size="18" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">GESTION</tspan><tspan x="0" y="18">DES INCIDENTS</tspan></text>
-  <line id="Line_7" data-name="Line 7" y2="57" transform="translate(63.219)" fill="none" stroke="#717172" stroke-width="1"/>
-  <g id="Component_8_1" data-name="Component 8 – 1" transform="translate(0 0.041)">
+DES INCIDENTS" transform="translate(80.719 25.459)" fill="#254090" font-size="18" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">GESTION</tspan><tspan x="0" y="18">DES INCIDENTS</tspan></text>
+  <line id="Line_7" data-name="Line 7" y2="45" transform="translate(68.219 5.859)" fill="none" stroke="#f9d352" stroke-width="7"/>
+  <g id="Component_8_1" data-name="Component 8 – 1">
     <g id="Group_12" data-name="Group 12" transform="translate(-198.841 -126.959)">
       <rect id="Rectangle_37" data-name="Rectangle 37" width="56.719" height="56.719" rx="18.004" transform="translate(198.841 126.959)" fill="url(#linear-gradient)"/>
     </g>
     <g id="list-svgrepo-com" transform="translate(-31.357 -39.095)">
-      <path id="Path_88" data-name="Path 88" d="M61.45,57.675,47.37,33.538a2.661,2.661,0,0,0-4.6,0L28.694,57.675a2.659,2.659,0,0,0,2.3,4h28.16a2.661,2.661,0,0,0,2.3-4ZM59.4,59.156a.265.265,0,0,1-.244.141H30.992a.267.267,0,0,1-.245-.141.271.271,0,0,1,0-.283l14.08-24.137a.269.269,0,0,1,.244-.14.273.273,0,0,1,.245.14L59.4,58.873A.268.268,0,0,1,59.4,59.156Z" transform="translate(15.265 17.673)" fill="#fff"/>
-      <path id="Path_89" data-name="Path 89" d="M42.688,39A1.188,1.188,0,0,0,41.5,40.189V49.7a1.189,1.189,0,1,0,2.377,0V40.189A1.188,1.188,0,0,0,42.688,39Z" transform="translate(17.75 18.953)" fill="#fff"/>
-      <path id="Path_90" data-name="Path 90" d="M41.844,51.343a1.205,1.205,0,0,0,0,1.688,1.181,1.181,0,0,0,.844.345,1.228,1.228,0,0,0,.844-.345,1.205,1.205,0,0,0,0-1.688A1.232,1.232,0,0,0,41.844,51.343Z" transform="translate(17.75 21.218)" fill="#fff"/>
+      <path id="Path_88" data-name="Path 88" d="M61.45,57.675,47.37,33.538a2.661,2.661,0,0,0-4.6,0L28.694,57.675a2.659,2.659,0,0,0,2.3,4h28.16a2.661,2.661,0,0,0,2.3-4ZM59.4,59.156a.265.265,0,0,1-.244.141H30.992a.267.267,0,0,1-.245-.141.271.271,0,0,1,0-.283l14.08-24.137a.269.269,0,0,1,.244-.14.273.273,0,0,1,.245.14L59.4,58.873A.268.268,0,0,1,59.4,59.156Z" transform="translate(15.265 17.673)" fill="#f9d352"/>
+      <path id="Path_89" data-name="Path 89" d="M42.688,39A1.188,1.188,0,0,0,41.5,40.189V49.7a1.189,1.189,0,1,0,2.377,0V40.189A1.188,1.188,0,0,0,42.688,39Z" transform="translate(17.75 18.953)" fill="#f9d352"/>
+      <path id="Path_90" data-name="Path 90" d="M41.844,51.343a1.205,1.205,0,0,0,0,1.688,1.181,1.181,0,0,0,.844.345,1.228,1.228,0,0,0,.844-.345,1.205,1.205,0,0,0,0-1.688A1.232,1.232,0,0,0,41.844,51.343Z" transform="translate(17.75 21.218)" fill="#f9d352"/>
     </g>
   </g>
 </svg>

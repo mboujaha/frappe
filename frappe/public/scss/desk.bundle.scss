@@ -19,7 +19,7 @@
 
 .page-container[data-page-route="Workspaces"] {
   background: url("/assets/frappe/images/cosumar/bluecirclesbg.png") no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-position: inherit;
 }
 
@@ -33,5 +33,5 @@
   transform: scale(1.04);
 }
 .page-title {
-    // display: none;
+  // display: none;
 }

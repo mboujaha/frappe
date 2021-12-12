@@ -9,10 +9,10 @@
     </div>
     <div class="gi-auth-page">
         <div class="gi-login-content">
-            <div class="gi-login-company-logo">
-                <img class="app-logo" src="assets/frappe/images/cosumar/logologin2x.png">
-            </div>
             <div class="gi-login-sub-content">
+                <div class="gi-login-company-logo">
+                    <img class="app-logo" src="assets/frappe/images/cosumar/logologin2x.png">
+                </div>
                 <div class="gi-header">
                     <div class="gi-heading">
                         {{ _("Authentification") }}
@@ -80,11 +80,13 @@
                                     </svg>
                                 </div>
                                 <div class="gi-auth-form-group-input">
-                                    <input type="password" id="login_password" placeholder="•••••"
+                                    <div class="input-box">
+                                        <input type="password" id="login_password" placeholder="•••••"
                                         autocomplete="current-password" required>
-                                    <span toggle="#login_password" class="toggle-password">{{ _('Show') }}</span>
-
-                                </div>
+                                        <span toggle="#login_password" class="toggle-password">{{ _('Show') }}</span>
+                                    </div>
+                                </input>
+                                    </div>
                             </div>
                         </div>
                     </div>

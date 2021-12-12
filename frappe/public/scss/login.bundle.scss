@@ -38,8 +38,8 @@ body {
   flex-direction: column;
 
   .gi-login-company-logo {
-    padding: 3rem 0;
-
+    // padding: 3rem 0;
+    margin-bottom: auto;
     img {
       width: 240px;
     }
@@ -117,6 +117,7 @@ body {
 
     .gi-auth-form-container {
       margin-block: min(2rem, 1vh);
+      margin-bottom: auto;
       .gi-auth-form-data {
         display: flex;
         flex-direction: column;
@@ -133,7 +134,7 @@ body {
 
           .gi-field {
             .gi-auth-form-group-icon {
-              margin-top: 10px;
+              margin-top: 14px;
               padding-left: 0.5rem;
               position: absolute;
             }
@@ -201,10 +202,10 @@ body {
   justify-content: center;
   .circles {
     img {
-      width: 600px;
+      width: 450px;
       position: absolute;
-      top: -15rem;
-      right: -15rem;
+      top: 0rem;
+      right: 0rem;
     }
   }
   .mn-section {
@@ -315,6 +316,16 @@ body {
   }
 }
 
+
+@media screen and (max-width: 800px) {
+  .fade_rule {
+    display: none;
+  }
+  .gi-header {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 750px) {
   .gi-login-design .mn-section .illustration img {
     width: 300px;
@@ -333,6 +344,18 @@ body {
   }
   .gi-login-content {
     padding: 0 1rem;
+  }
+  .fade_rule {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 568px) {
+  .fade_rule {
+    display: none;
+  }
+  .gi-header {
+    display: none;
   }
 }
 

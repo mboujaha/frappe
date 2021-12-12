@@ -13,3 +13,5 @@ Chat
 Social
 Automation
 Event Streaming
+Incidents
+Géstion des incidents
