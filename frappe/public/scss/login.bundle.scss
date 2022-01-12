@@ -4,7 +4,6 @@ body {
   background-color: var(--bg-light-gray);
 }
 
-
 .login-button-wrapper {
   a {
     background: #fed614 !important;
@@ -24,7 +23,6 @@ body {
   font-weight: bold !important;
 }
 
-
 .btn.btn-block.btn-default.btn-sm.btn-login-option {
   color: #213a8f !important;
   font-weight: bold !important;
@@ -37,13 +35,18 @@ body {
   }
 }
 
-.login-container {
+body {
   height: 100vh;
-  background: linear-gradient(to bottom, rgb(8 23 111 / 10%), #1e3a8cf5, #1E3A8D), url('/assets/frappe/images/cosumar/clogo.png');
+  background: linear-gradient(
+      to bottom,
+      rgb(8 23 111 / 10%),
+      #1e3a8cf5,
+      #1e3a8d
+    ),
+    url("/assets/frappe/images/cosumar/clogo.png");
   background-size: contain !important;
   background-repeat: no-repeat !important;
 }
-
 
 .web-footer {
   display: none !important;
@@ -100,9 +103,8 @@ body {
 }
 
 input {
-  border: solid 1px #FED418 !important;
+  border: solid 1px #fed418 !important;
 }
-
 
 .for-login,
 .for-forgot,
